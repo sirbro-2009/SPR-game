@@ -1,0 +1,153 @@
+body{
+    font-family: 'Lalezar';
+    background-color: #F6E9D7;
+    padding: 25px;
+
+
+}
+#title{
+    color: #82562C;
+}
+.mI{
+    width: 70px;
+    height: 70px;
+    transition: all 1s ease;
+}
+.mI:hover{
+    transform: scale(1.1);
+}
+.the_Mode{
+    width: 100%;
+    margin: 0auto;
+    background-color: #6A4A2F;
+    padding: 10px;
+    display: flex;
+    justify-content:space-between;
+    border: 2px solid #6A4A2F;
+    border-radius: 25px;
+    align-items: center;
+}
+#theM{
+color: antiquewhite;
+font-size: 25px;
+}
+.bord{
+    width: 90%;
+    padding: 50px;
+    margin: 0 auto;
+    height: 5%;
+    background: color-mix(in srgb, #6A4A2F 50%, transparent 50%);
+    border-radius: 25px;
+    display: block;
+    margin-bottom: 100px;
+
+}
+.players{
+background-color: beige;
+height: 400px;
+border-radius: 25px;
+padding: 10px;
+display: flex;
+justify-content: space-between;
+}
+.p{
+    background: color-mix(in srgb, gold 50%, transparent 50%);
+    padding: 10px;
+    width: 45%;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    
+}
+#theReasaulte{
+    text-align: center;
+    align-items: center;
+    background-color: cornsilk;
+    margin: 25px auto;
+    color: coral;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+footer{
+    background: color-mix(in srgb, #af5002 50%, transparent 50%);
+    height: auto;
+    width: 100%;
+    padding: 20px;
+    border-radius: 25px;
+    text-align: center;
+    color: cornsilk;
+    margin: 100px auto;
+}
+#span{
+    text-align: center;
+    font-size: 25px;
+    align-items: center;
+}
+.choisesImg{
+    width: 60px;
+    height: 60px;
+    transition: all 1s ease;
+    cursor: pointer;
+}
+.user {
+    width: 200px;
+    height: 200px;
+    transition: all 1s ease;
+    border-radius: 25px;
+    border: 5px solid white;
+}
+.choies{
+    margin: 0 auto;
+    background-color: burlywood;
+    border-radius: 25px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+.choisesImg:hover,.user:hover{
+    transform: scale(1.1);
+}
+.choisesImg:hover{
+    transform: rotate(45deg);
+}
+#rImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 25px;
+    transition: all 1s ease;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+#rImg:hover{
+    transform: scale(1.1);
+}
+.timer{
+    color: yellowgreen;
+    text-align: center;
+}
+#time{
+    font-size: 50px;
+}
+#reasalte{
+    color: antiquewhite;
+    font-size: 40px;
+}
+#preCont{
+    color: coral;
+    font-size: 35px;
+transform: scale(1);
+transition: all 1s ease;
+}
+#preCont:hover {
+    transform: scale(1.1);
+}
+img{
+    cursor: pointer;
+}
