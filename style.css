@@ -136,7 +136,7 @@ footer{
     font-size: 50px;
 }
 #reasalte{
-    color: antiquewhite;
+    color: rgb(215, 128, 14);
     font-size: 40px;
 }
 #preCont{
@@ -151,3 +151,4 @@ transition: all 1s ease;
 img{
     cursor: pointer;
 }
+
